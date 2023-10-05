@@ -29,7 +29,7 @@
 
 ● Scalable code is very important to us - should try to be generic
 
-● Understanding how you work and attack the problems
+● Understanding how you approach the problems
 
 ● Knowledge of SOLID Principles and Design Patterns as Needed
 
@@ -58,7 +58,7 @@
 ● The Text in the Menu Screen should be updated from configurations
 1. [ ] Create json for that in the firebase project, load it in run time
 
-**● Upload all code to Github and share with us the repo**
+**● Commit all changes to your fork and send us the link**
 
 
 ## Useful Links and Resources
