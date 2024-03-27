@@ -7,7 +7,7 @@
 
 ● Fork this repository to your github account
 
-● Open the project in Unity 2022.3
+● Open the project in Unity 2022.3.x
 
 ● You Can use any resources, scripts, plugins, assets you want
 
@@ -38,25 +38,24 @@
 
 ## Tasks - Legacy Code Break Breaker
 
-● Import the project and fix all compile errors
+● Open the project in unity
 1. [ ] Try to minimize changing of existing code
-2. [ ] Make sure the game is running
 
-● Upgrade the project to support URP
+● Make sure code is separated to different ASMDEFs and Namespaces
+1. [ ] Create a new ASMDEF for the existing code
+2. [ ] Create a new ASMDEFs as needed
 
-1. [ ] Add support to use URP in the project
-2. [ ] Add support to use Shader Graph in the project
-
-● Make sure code is separated to different ASMDF and Namespaces
-
-● Design a Configuration Manager
-1. [ ] Import Firebase SDK for configurations
+● Design a Configuration Manager (firebase or other 3rd party
+1. [ ] Import Firebase SDK for configurations  (or other 3rd party SDK
 2. [ ] Design & Code A Config Manager that will manage the configurations on the client side
 3. [ ] Create new firebase project and connect the client to load configurations from there
-4. [ ] Parse the Json you get from firebase in order to use it
+4. [ ] Parse the Json you get from firebase in order to use it, recommend using Newtonsoft.Json
+5. [ ] Please try to use generic code, so it will be easy to add more configurations in the future
 
 ● The Text in the Menu Screen should be updated from configurations
 1. [ ] Create json for that in the firebase project, load it in run time
+2. [ ] Update the text in the menu screen from the configurations
+3. [ ] Make sure the text is updated in the editor as well
 
 **● Commit all changes to your fork and send us the link**
 
